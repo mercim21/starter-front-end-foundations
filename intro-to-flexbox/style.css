@@ -24,8 +24,16 @@ h3 {
 
 /* --- Groups & Items --- */
 
-.group {
+.ggroup {
+  display: flex;
+  flex-direction: row; /* or column, row-reverse, column-reverse */
 }
 
 .item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
 }
